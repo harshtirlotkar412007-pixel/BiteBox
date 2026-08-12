@@ -1,9 +1,109 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Document</title>
+        <title >Bitebox Onboarding Project</title>
+    <script src="https://kit.fontawesome.com/0e0aac494d.js" crossorigin="anonymous"></script>
+        <style> 
+        li{
+            list-style-type: none;
+        }
+        </style>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     </head>
     <body>
-         <h2>Menu Page</h2>
+         
+         <header>
+            <nav>
+                
+                    <!--Logo-->
+                    <img src="images/BiteBoxLogo.png" alt="logo" width="180px">
+                        
+                    <!--Menu Section-->
+                    <ul>
+                        <li><a href="home.html" class="active">Home</li></a>
+                        <li><a href="about.html">About Us</li></a>
+                        <li><a href="contact.html">Contact Us</li></a>
+                        <li><a href="biteDeals.html">Bite Deals</li></a>
+                        <li><a href="cart.html"><i class="fa-solid fa-cart-plus"></i></li></a>
+                        <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></li></a>
+                    </ul>
+                
+            </nav>
+        </header>
+
+        <!--Start filter Section-->
+        <div class="category-icons">
+            <div class="icon-box">
+                <img src="images/menuall.jpg">
+                <p>All</p>
+            </div>
+
+            <div class="icon-box">
+                <img src="images/Burger.jpg">
+                <p>Burgers</p>
+            </div>
+
+            <div class="icon-box">
+                <img src="images/frenchfries.jpg">
+                <p>FrenchFries</p>
+            </div>
+            
+            <div class="icon-box">
+                <img src="images/hotdog.jpg">
+                <p>HotDog</p>
+            </div>
+
+            <div class="icon-box">
+                <img src="images/pizza.jpg">
+                <p>Pizza</p>
+            </div>
+
+            <div class="icon-box">
+                <img src="images/sandwhich.jpg">
+                <p>Sandwhich</p>
+            </div>
+        </div>
+
+        <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="card">
+                <img src="images/Burger.jpg">
+                <h3>Burger</h3>
+                <p>Cheesy Burger</p>
+                <span>₹299</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="images/frenchfries.jpg">
+                <h3>FrenchFries</h3>
+                <p>Loaded FrenchFries</p>
+                <span>₹159</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="images/hotdog.jpg">
+                <h3>HotDog</h3>
+                <p>Fresh HotDog</p>
+                <span>₹189</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="images/pizza.jpg">
+                <h3>Pizza</h3>
+                <p>Neapolitan Pizza</p>
+                <span>₹399</span>
+                <button>Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="images/sandwhich.jpg">
+                <h3>Sandwhich</h3>
+                <p>Grilled Sandwhiches</p>
+                <span>₹99</span>
+                <button>Add to cart</button>
+            </div>
+        </div>
+        </section>
     </body>
 </html>

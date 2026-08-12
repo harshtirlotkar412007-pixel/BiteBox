@@ -1,9 +1,137 @@
 <DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Document</title>
+        <title >Bitebox Onboarding Project</title>
+    <script src="https://kit.fontawesome.com/0e0aac494d.js" crossorigin="anonymous"></script>
+        <style> 
+        li{
+            list-style-type: none;
+        }
+        </style>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
     </head>
     <body>
+    
+        <header>
+            <nav>
+                
+                    <!--Logo-->
+                    <img src="images/BiteBoxLogo.png" alt="logo" width="180px">
+                        
+                    <!--Menu Section-->
+                    <ul>
+                        <li><a href="home.html" class="active">Home</li></a>
+                        <li><a href="menu.html">Menu</li></a>
+                        <li><a href="about.html">About Us</li></a>
+                        <li><a href="contact.html">Contact Us</li></a>
+                        <li><a href="biteDeals.html">Bite Deals</li></a>
+                        <li><a href="cart.html"><i class="fa-solid fa-cart-plus"></i></li></a>
+                        <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></li></a>
+                    </ul>
+                
+            </nav>
+        </header>
+
          <h2>Cart Page</h2>
+         <!--Start Cart Section-->
+        <section class="cart">
+            <table>
+                <thead>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                 </thead>
+
+            <tbody>
+                <tr>
+                <td class="item">
+                <img src="images/Burger.jpg">
+                <div>
+                    <h4>Cheese burger</h4>
+                    <p>Juicey grilled burger</p>
+                </div>
+                </td>
+                <td>₹299</td>
+                <td>
+                <div class="qty-box">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                </td>
+                <td>₹299</td>
+                <td><button class="remove">X</button></td>
+            </tr>
+
+            <tr>
+                <td class="item">
+                <img src="images/pizza.jpg">
+                <div>
+                    <h4>Neapolitan Pizza</h4>
+                    <p>Authentic Wood-Fire Pizza</p>
+                </div>
+                </td>
+                <td>₹499</td>
+                <td>
+                <div class="qty-box">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                </td>
+                <td>₹299</td>
+                <td><button class="remove">X</button></td>
+            </tr>
+
+            <tr>
+                <td class="item">
+                <img src="images/frenchfries.jpg">
+                <div>
+                    <h4>Overloaded fries</h4>
+                    <p>Extra Cheezy</p>
+                </div>
+                </td>
+                <td>₹149</td>
+                <td>
+                <div class="qty-box">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                </td>
+                <td>₹299</td>
+                <td><button class="remove">X</button></td>
+            </tr>
+
+            <tr>
+                <td class="item">
+                <img src="images/hotdog.jpg">
+                <div>
+                    <h4>Fresh HotDog</h4>
+                    <p>Juicey grilled HotDogs</p>
+                </div>
+                </td>
+                <td>₹189</td>
+                <td>
+                <div class="qty-box">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+                </td>
+                <td>₹299</td>
+                <td><button class="remove">X</button></td>
+            </tr>
+            <tr class="grand-total">
+                <td colspan="3">Grand Total</td>
+                <td>199</td>
+                <td><button>Proceed</button></td>
+                </tr>
+            </tbody>
+            </table>
+        </section>
     </body>
 </html>

@@ -64,3 +64,183 @@ nav li:last-child a:hover{
     font-size: 18px;
     color: #444
 }
+
+.about p{
+    color:aqua;
+    line-height: 1.6;
+}
+
+.card{
+    background: burlywood;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4ox 10px rgb(206, 254, 94);
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card button{
+    background: black;
+    color: whitesmoke;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.card button:hover{
+    background: hotpink;
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.category-icons{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow: auto;
+    background: whitesmoke;
+    justify-content: center;
+}
+
+.icon-box{
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon-box img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid gray;
+    padding: 5px;
+}
+
+.icon-box p{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.icon-box img:hover{
+    border-color: turquoise;
+    transform: scale(1.1);
+}
+
+.icon-box p:hover{
+    color: crimson;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+table{
+    width:70%;
+    border-collapse: collapse;
+    background:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+}
+
+thead{
+    background:#f80202;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tbody tr{
+    border-bottom: 1px solid rgb(232, 224, 224);
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.remove{
+    background:red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.remove :hover{
+    background: darkred;
+}
+
+.grand-total td{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grand-total button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+grand-total button:hover{
+    background:darkred;
+}
+
+.qty-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.qty-box button{
+    width: 28px;
+    height: 28px;
+    border:none;
+    background: red;
+    color:white;
+    font-size:16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.qty-box button:hover{
+    background:#cc0000;
+}
+.qty-box span{
+    font-size: 16px;
+    font-weight:bold;
+    min-width: 28px;
+    text-align: center;
+}
